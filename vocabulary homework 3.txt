@@ -1,0 +1,105 @@
+a. Open and closed set:
+
+A set S is said to be open if for every point x in S, there exists an open ball centered at x that is entirely contained in S. In other words, every point in S has a neighborhood entirely contained in S.
+A set S is said to be closed if its complement S^c is open.
+b. Cartesian product:
+
+The Cartesian product of two sets A and B, denoted by A × B, is the set of all ordered pairs (a,b) where a ∈ A and b ∈ B.
+c. Compactness, connectedness and continuity:
+
+Compactness is a property of a topological space that roughly means that it is "finite" in some sense. More precisely, a topological space is compact if every open cover has a finite subcover.
+Connectedness is a property of a topological space that means it cannot be written as the union of two nonempty disjoint open sets.
+Continuity is a property of functions between topological spaces that roughly means that "small" changes in the input result in "small" changes in the output.
+d. Topological space, vector space, metric space, Locally convex space, Normed vector space and inner product space:
+
+A topological space is a set equipped with a topology, which is a collection of subsets called "open sets" that satisfy certain axioms.
+A vector space is a set equipped with a way of adding vectors and multiplying vectors by scalars, satisfying certain axioms.
+A metric space is a set equipped with a way of measuring distances between points, called a metric.
+A locally convex space is a vector space equipped with a topology such that each point has a neighborhood that is convex.
+A normed vector space is a vector space equipped with a norm, which is a way of measuring the "size" of a vector.
+An inner product space is a vector space equipped with an inner product, which is a way of measuring the angle between two vectors.
+e. Norm:
+
+A norm on a vector space is a function that assigns a non-negative real number to each vector in the space, satisfying certain axioms.
+f. Dot product and cross product:
+
+The dot product of two vectors is a scalar given by the sum of the products of their corresponding components.
+The cross product of two vectors is a vector that is perpendicular to both of the original vectors and has a magnitude equal to the product of their magnitudes times the sine of the angle between them.
+g. Projection:
+
+The projection of a vector onto another vector is the component of the first vector that lies in the direction of the second vector.
+h. Linear transformation:
+
+A linear transformation is a function between two vector spaces that preserves the operations of addition and scalar multiplication.
+i. Write a system of linear equations as a matrix:
+
+A system of linear equations can be written as a matrix equation of the form Ax=b, where A is the coefficient matrix, x is the column vector of variables, and b is the column vector of constants.
+j. Identity matrix – include some of its uses:
+
+The identity matrix is a square matrix with 1's on the diagonal and 0's elsewhere.
+One use of the identity matrix is to multiply a matrix by its inverse, which results in the identity matrix.
+Another use of the identity matrix is to represent the identity transformation, which leaves vectors unchanged.
+k. Determinant:
+
+The determinant of a square matrix is a scalar that can be computed using a formula involving the entries of the matrix. The determinant can be used to determine if a matrix is invertible and to compute the inverse of a matrix.
+
+l. Canonical form of a matrix:
+
+The canonical form of a matrix is a representation of the matrix that simplifies its structure and reveals certain properties. For example, the diagonal form of a matrix shows its eigenvalues on the diagonal and the eigenvectors in the columns.
+m. Matrix decomposition (list a few different types, including one NOT discussed in class):
+
+Matrix decomposition is the process of breaking down a matrix into simpler components that are easier to analyze or manipulate. Some common types of matrix decomposition include:
+LU decomposition: a factorization of a square matrix into a lower triangular matrix and an upper triangular matrix
+QR decomposition: a factorization of a matrix into an orthogonal matrix and an upper triangular matrix
+Singular value decomposition (SVD): a factorization of a matrix into three matrices, one of which is diagonal
+Cholesky decomposition: a factorization of a symmetric positive definite matrix into the product of a lower triangular matrix and its transpose
+Eigenvalue decomposition: a factorization of a square matrix into the product of its eigenvectors and a diagonal matrix of its eigenvalues
+n. Change of basis:
+
+Change of basis is the process of expressing a vector in terms of a different basis. This involves computing a change of basis matrix that transforms the original basis vectors into the new basis vectors.
+o. Eigendecomposition:
+
+Eigendecomposition is a type of matrix decomposition that expresses a square matrix as a product of its eigenvectors and a diagonal matrix of its corresponding eigenvalues.
+p. PCA:
+
+Principal component analysis (PCA) is a statistical technique that involves transforming data into a new coordinate system that maximizes the variance in the data. This is done by computing the eigenvectors and eigenvalues of the covariance matrix of the data.
+q. SVD:
+
+Singular value decomposition (SVD) is a type of matrix decomposition that expresses a matrix as the product of three matrices: a left singular matrix, a diagonal singular value matrix, and a right singular matrix. SVD is used in many applications, including image compression and data analysis.
+r. Characteristic equation and characteristic polynomial:
+
+The characteristic equation of a square matrix is the equation det(A-λI)=0, where λ is a scalar and I is the identity matrix. The solutions of this equation are the eigenvalues of the matrix.
+The characteristic polynomial is the polynomial obtained by expanding the determinant in the characteristic equation.
+s. Encoder and decoder:
+
+An encoder is a function that maps a message or signal into a different representation or format. A decoder is a function that reverses this process to recover the original message or signal.
+t. Joint probability distribution function:
+
+The joint probability distribution function of two or more random variables is a function that assigns a probability to each possible combination of values of the variables.
+u. Conditional probability distribution function:
+
+The conditional probability distribution function of a random variable given another random variable is a function that assigns a probability to each possible value of the first variable, given a specific value of the second variable.
+v. Marginal distribution:
+
+The marginal distribution of a random variable is the probability distribution of that variable alone, ignoring the values of any other variables.
+w. Mutual information:
+
+Mutual information is a measure of the amount of information that two random variables share. It is defined as the difference between the entropy of the joint distribution and the entropies of the individual distributions.
+
+x. Covariance vs. correlation:
+
+Covariance is a measure of the linear relationship between two variables. It measures how much the variables change together, and is affected by the scale of the variables.
+Correlation is a standardized version of covariance, which is scaled to have values between -1 and 1. Correlation measures the strength and direction of the linear relationship between two variables, and is not affected by the scale of the variables.
+y. Feature vectors:
+
+In machine learning and data analysis, a feature vector is a vector that represents a set of features or attributes of an object or observation. Feature vectors are used to represent data in a format that is suitable for analysis by machine learning algorithms.
+z. Matrix rank:
+
+The rank of a matrix is the maximum number of linearly independent rows or columns in the matrix. The rank of a matrix can also be interpreted as the dimension of the subspace spanned by its rows or columns.
+aa. Frobenius norm:
+
+The Frobenius norm of a matrix is a measure of its size or magnitude, and is defined as the square root of the sum of the squares of its entries. Mathematically, it is represented as ||A||_F = sqrt(sum_i(sum_j(A_ij^2))).
+The Frobenius norm can be thought of as a generalization of the Euclidean norm for vectors.
+bb. Low rank approximation:
+
+A low rank approximation of a matrix is a matrix that has a smaller rank than the original matrix, but approximates it as closely as possible. Low rank approximations are used in many applications, including data compression and matrix completion. One common technique for computing low rank approximations is singular value decomposition (SVD).
